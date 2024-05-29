@@ -41,9 +41,6 @@
                         @guest
                         @else
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('produk.index') }}">{{ __('Produk') }}</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="{{ route('fasilitas.index') }}">{{ __('Fasilitas') }}</a>
                         </li>
                         <li class="nav-item">

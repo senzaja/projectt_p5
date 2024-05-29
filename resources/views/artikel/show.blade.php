@@ -10,7 +10,7 @@
                         {{ __('artikel') }}
                     </div>
                     <div class="float-end">
-                        <a href="{{ route('artikel.index') }}" class="btn btn-sm btn-outline-primary">Kembali</a>
+                        <a href="{{ url('/') }}" class="btn btn-sm btn-outline-primary">Kembali</a>
                     </div>
                 </div>
 

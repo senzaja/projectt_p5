@@ -17,15 +17,15 @@
                 <div class="card-body">
                     <hr>
                     <h4>{{ $industri->nama_industri }}</h4>
-                    <h4>{{ $industri->alamat }}</h4>
+                    <H4>{{ $industri->alamat }}</H4>
                     <p class=tmt-3>
                         tahun kerjasama : {{$industri->tahun_kerjasama}}
                     </p>
-                </div>
+               
                     <p class=tmt-3>
-                        jurusan : {{$industri->nama_jurusan}}
+                        jurusan : {{$industri->jurusan->nama_jurusan}}
                     </p>
-                </div>
+
             </div>
         </div>
     </div>

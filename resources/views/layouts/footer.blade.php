@@ -1,7 +1,7 @@
-<footer>
-        <center>
-          <p>@copyright</p>
-          <p>sendi setiawan</p>
-          <p>2024</p>
-        </center>
-      </footer>
+<footer class="main-footer">
+  <div class="row">
+    <div class="col-md12 text-center">
+      <p>@copyright sendi setiawan 2024</p>
+</footer>
+</div>
+</div>

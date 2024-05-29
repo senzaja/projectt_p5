@@ -97,19 +97,17 @@
         <div class="container">
             <!-- ROW 1 -->
             <div class="col-12 text-center mb-4">
-                <h2>Berita & Artikel Terbaru Tentang Sekolah </h2>
+                <h2>Tentang estrakulikuler Sekolah </h2>
             </div>
             <div class="row">
-                @foreach ( $artikel as $data)
+                @foreach ( $eskul as $data)
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
-                        <img src="{{asset ('/storage/artikel/' . $data->image )}}">
+                        <img src="{{asset ('/storage/eskul/' . $data->image )}}">
                         <div class="card-body">
-                            <h5 class="card-title">{{$data ->judul}}</h5>
+                            <h5 class="card-title">{{$data ->eskul}}</h5>
                             <p class="card-title">{{$data ->deskripsi}}</p>
-                            <p class="card-title">{{$data ->tanggal}}</p>
 
-                            <a href="{{route ('artikel.show', $data->id)" class="btn btn-primary">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
